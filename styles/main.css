@@ -1,6 +1,6 @@
 .o-sidebar {
   height: 100vh;
-  width: 200px;
+  width: 100px;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,43 @@
   color: #e3ece8;
 }
 
-.o-text-accent {
+.o-wrapper {
+  margin-left: 100px;
+  background-color: #29728D;
+}
+.o-wrapper .o-home {
+  height: 100vh;
+  padding-top: 20%;
+}
+.o-wrapper .o-home .m-home-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o-wrapper .o-home .m-profilePhoto {
+  height: 300px;
+  width: 300px;
+  background-color: #e3ece8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o-wrapper .o-home .m-home {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  color: #e3ece8;
+  text-align: right;
+}
+.o-wrapper .o-home .m-home .a-mainTitle {
+  font-size: 40px;
+}
+.o-wrapper .o-home .m-home .a-mainDescr {
+  font-size: 21px;
+}
+.o-wrapper .o-text-accent {
   color: #26D188;
 }
 

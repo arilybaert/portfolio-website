@@ -7,7 +7,7 @@ $color-white: #e3ece8;
 
 .o-sidebar {
     height: 100vh;
-    width: 200px;
+    width: 100px;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -33,6 +33,50 @@ $color-white: #e3ece8;
 }
 
 // home
-.o-text-accent {
-    color: $color-accent;
+.o-wrapper {
+    margin-left: 100px; // @todo tempfix the problem that sidebar doesn't take up space
+
+    background-color: $color-blue;
+
+    .o-home {
+        height: 100vh;
+        padding-top: 20%;
+
+        .m-home-left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+        .m-profilePhoto {
+            height: 300px;
+            width: 300px;
+            background-color: $color-white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .m-home {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            flex-direction: column;
+            color: $color-white;
+            text-align: right;
+
+            .a-mainTitle {
+                font-size: 40px;
+            }
+            .a-mainDescr {
+                font-size: 21px;
+            }
+        }
+    }
+    .o-text-accent {
+        color: $color-accent;
+    }
+    
 }

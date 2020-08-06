@@ -20,16 +20,20 @@
     </div>
 
     <!-- homepage -->
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-
-            </div>
-            <div class="col-6">
-                <p>Hi,<br/> I'm <span class="o-text-accent">Ari Lybaert</span></p>
+    <div class="o-wrapper">
+        <div class="container">
+            <div class="row o-home">
+                <div class="col-6 m-home-left">
+                    <div class="m-profilePhoto">
+                        <img src="src/img/memojiSticker.png" alt="profilephoto">
+                    </div>
+                </div>
+                <div class="col-6 m-home">
+                    <p class="a-mainTitle">Hi,<br/> I'm <span class="o-text-accent">Ari Lybaert</span></p>
+                    <p class="a-mainDescr">A last year developer student at the Artevelde College in Ghent </p>
+                </div>
             </div>
         </div>
     </div>
-
 </body>
 </html>
