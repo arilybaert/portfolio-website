@@ -1,0 +1,38 @@
+$color-red: #D93140;
+$color-blue: #29728D;
+$color-accent: #26D188;
+$color-white: #e3ece8;
+
+// sidebar
+
+.o-sidebar {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: $color-red;
+
+    ul {
+        padding: 40px;
+        height: max-content;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: $color-white;
+    }
+}
+
+// home
+.o-text-accent {
+    color: $color-accent;
+}
