@@ -29,6 +29,7 @@
 .o-wrapper .o-home {
   height: 100vh;
   padding-top: 20%;
+  background-color: #29728D;
 }
 .o-wrapper .o-home .m-home-left {
   display: flex;
@@ -60,6 +61,16 @@
 }
 .o-wrapper .o-text-accent {
   color: #26D188;
+}
+.o-wrapper .o-skills {
+  height: 100vh;
+  background-color: #29728D;
+}
+.o-wrapper .o-languages {
+  background-color: #e3ece8;
+}
+.o-wrapper .o-technical {
+  background-color: #29728D;
 }
 
 /*# sourceMappingURL=main.css.map */

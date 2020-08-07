@@ -32,15 +32,18 @@ $color-white: #e3ece8;
     }
 }
 
-// home
+
+
 .o-wrapper {
     margin-left: 100px; // @todo tempfix the problem that sidebar doesn't take up space
-
     background-color: $color-blue;
 
+
+    // home
     .o-home {
         height: 100vh;
         padding-top: 20%;
+        background-color: $color-blue;
 
         .m-home-left {
             display: flex;
@@ -78,5 +81,21 @@ $color-white: #e3ece8;
     .o-text-accent {
         color: $color-accent;
     }
+
+    .o-skills {
+        height: 100vh;
+        background-color: $color-blue;
+
+    }
+
+    .o-languages {
+        background-color: $color-white;
+    }
+
+    .o-technical {
+        background-color: $color-blue;
+    }
     
 }
+
+
