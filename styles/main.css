@@ -79,6 +79,20 @@
 .o-wrapper .o-skills .m-skills .a-invertTitle {
   color: #29728D;
 }
+.o-wrapper .o-skills .m-graphicLogo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.o-wrapper .o-skills .m-graphicLogo .a-graphicLogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3ece8;
+}
 .o-wrapper .o-languages {
   background-color: #e3ece8;
 }

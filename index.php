@@ -43,10 +43,10 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12">
-                        <div>Ps</div>
-                        <div>Ai</div>
-                        <div>Id</div>
+                        <div class="col-12 m-graphicLogo">
+                        <div class="a-graphicLogo">Ps</div>
+                        <div class="a-graphicLogo">Ai</div>
+                        <div class="a-graphicLogo">Id</div>
                         </div>
                     </div>
                 </div>
