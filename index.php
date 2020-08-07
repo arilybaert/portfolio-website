@@ -37,9 +37,9 @@
             <!-- skills -->
             <div class="row o-skills">
                 <div class="col-3 o-grafic">
-                    <div class="row">
+                    <div class="row m-skills">
                         <div class="col-12">
-                            <div>Graphic Skills</div>
+                            <div class="a-skillTitle">Graphic Skills</div>
                         </div>
                     </div>
                     <div class="row">
@@ -51,9 +51,9 @@
                     </div>
                 </div>
                 <div class="col-3 o-languages">
-                    <div class="row">
+                    <div class="row m-skills">
                         <div class="col-12">
-                            <div>Languages</div>
+                            <div class="a-skillTitle a-invertTitle">Languages</div>
                         </div>
                     </div>
                     <div class="row">
@@ -65,8 +65,10 @@
                     </div>
                 </div>
                 <div class="col-6 o-technical">
-                    <div class="row">
-                        <div>Technical Skills</div>
+                    <div class="row m-skills">
+                        <div class="col-12">
+                            <div class="a-skillTitle">Technical Skills</div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
