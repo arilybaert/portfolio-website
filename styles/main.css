@@ -85,13 +85,18 @@
   flex-direction: column;
 }
 .o-wrapper .o-skills .m-graphicLogo .a-graphicLogo {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e3ece8;
+  margin-top: 3vh;
+  position: relative;
+}
+.o-wrapper .o-skills .m-graphicLogo .a-graphicLogo .a-chartTitle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #111010;
+  font-weight: bold;
+  font-size: 15pt;
 }
 .o-wrapper .o-languages {
   background-color: #e3ece8;

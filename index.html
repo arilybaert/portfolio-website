@@ -44,9 +44,24 @@
                     </div>
                     <div class="row">
                         <div class="col-12 m-graphicLogo">
-                        <div class="a-graphicLogo">Ps</div>
-                        <div class="a-graphicLogo">Ai</div>
-                        <div class="a-graphicLogo">Id</div>
+                            <div class="a-graphicLogo">
+                                <div class="chart" data-percent="76">
+                                    <p class="a-chartTitle">Ps</p>
+                                </div>
+                            </div>
+                            <div class="a-graphicLogo">
+                                <div class="chart" data-percent="68">
+                                    <p class="a-chartTitle">Ai</p>
+
+                                </div>
+                            </div>
+                            <div class="a-graphicLogo">
+                                <div class="chart" data-percent="81">
+                                    <p class="a-chartTitle">Id</p>
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -57,10 +72,25 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12">
-                            <div>NL</div>
-                            <div>Fr</div>
-                            <div>EN</div>
+                        <div class="col-12 m-graphicLogo">
+                            <div class="a-graphicLogo">
+                                <div class="chartLang" data-percent="100">
+                                    <p class="a-chartTitle a-chartTitleLang">NL</p>
+                                </div>
+                            </div>
+                            <div class="a-graphicLogo">
+                                <div class="chartLang" data-percent="76">
+                                    <p class="a-chartTitle a-chartTitleLang">Fr</p>
+
+                                </div>
+                            </div>
+                            <div class="a-graphicLogo">
+                                <div class="chartLang" data-percent="81">
+                                    <p class="a-chartTitle a-chartTitleLang">EN</p>
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -85,5 +115,29 @@
 
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="src/plugins/jquery.easypiechart.js"></script>
+    <script>
+        $(function() {
+            $('.chart').easyPieChart({
+                //your options goes here
+                barColor: "#e3ece8",
+                lineWidth: "9",
+                trackColor: false,
+                scaleColor: false,
+
+            });
+            $('.chartLang').easyPieChart({
+                //your options goes here
+                barColor: "#111010",
+                lineWidth: "9",
+                trackColor: false,
+                scaleColor: false,
+
+            });
+        });
+    </script>
+
 </body>
 </html>

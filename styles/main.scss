@@ -2,6 +2,7 @@ $color-red: #D93140;
 $color-blue: #29728D;
 $color-accent: #26D188;
 $color-white: #e3ece8;
+$color-black: #111010;
 
 // sidebar
 
@@ -104,16 +105,21 @@ $color-white: #e3ece8;
             display: flex;
             align-items: center;
             flex-direction: column;
+
             .a-graphicLogo {
-                height: 50px;
-                width: 50px;
-                border-radius: 50%;
-    
-                display: flex;
-                justify-content: center;
-                align-items: center;
-    
-                background-color: $color-white;
+                margin-top: 3vh;
+                position: relative;
+                .a-chartTitle {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 100%;
+                    text-align: center;
+                    color: $color-black;
+                    font-weight: bold;
+                    font-size: 15pt;
+
+                }
             }
         }
         
