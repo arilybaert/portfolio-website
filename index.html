@@ -39,7 +39,7 @@
                 <div class="col-3 o-grafic">
                     <div class="row m-skills">
                         <div class="col-12">
-                            <div class="a-skillTitle">Graphic Skills</div>
+                            <h1 class="a-skillTitle">Graphic Skills</h1>
                         </div>
                     </div>
                     <div class="row">
@@ -68,23 +68,23 @@
                 <div class="col-3 o-languages">
                     <div class="row m-skills">
                         <div class="col-12">
-                            <div class="a-skillTitle a-invertTitle">Languages</div>
+                            <h1 class="a-skillTitle a-invertTitle">Languages</h1>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 m-graphicLogo">
-                            <div class="a-graphicLogo">
+                            <div class="a-graphicLogo" id="a-graphicLogo__NL">
                                 <div class="chartLang" data-percent="100">
                                     <p class="a-chartTitle a-chartTitleLang">NL</p>
                                 </div>
                             </div>
-                            <div class="a-graphicLogo">
+                            <div class="a-graphicLogo" id="a-graphicLogo__FR">
                                 <div class="chartLang" data-percent="76">
                                     <p class="a-chartTitle a-chartTitleLang">Fr</p>
 
                                 </div>
                             </div>
-                            <div class="a-graphicLogo">
+                            <div class="a-graphicLogo" id="a-graphicLogo__EN">
                                 <div class="chartLang" data-percent="81">
                                     <p class="a-chartTitle a-chartTitleLang">EN</p>
 
@@ -97,47 +97,118 @@
                 <div class="col-6 o-technical">
                     <div class="row m-skills">
                         <div class="col-12">
-                            <div class="a-skillTitle">Technical Skills</div>
+                            <h1 class="a-skillTitle">Technical Skills</h1>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <ul class="o-programming-skills">
-                                <li><h3>Javascript</h3><span class="bar"><span class="a-programming-skills-javascript"></span></span></li>
-                                <li><h3>React</h3><span class="bar"><span class="a-programming-skills-react"></span></span></li>                <li><h3>PHP</h3><span class="bar"><span class="a-programming-skills-php"></span></span></li>
-                                <li><h3>Laravel</h3><span class="bar"><span class="a-programming-skills-laravel"></span></span></li>
-                                <li><h3>Python</h3><span class="bar"><span class="a-programming-skills-python"></span></span></li>
+                                <li><h3>Javascript</h3><span class="bar"><span id="a-programming-skills-javascript"></span></span></li>
+                                <li><h3>React</h3><span class="bar"><span id="a-programming-skills-react"></span></span></li>                
+                                <li><h3>PHP</h3><span class="bar"><span id="a-programming-skills-php"></span></span></li>
+                                <li><h3>Laravel</h3><span class="bar"><span id="a-programming-skills-laravel"></span></span></li>
+                                <li><h3>Python</h3><span class="bar"><span id="a-programming-skills-python"></span></span></li>
                             </ul>
                             </div>
                     </div>
                 </div>
             </div>
 
+            <!-- work -->
+            <div class="row o-work">
+                <div class="col-12 o-workTitle">
+                    <h1 class="a-workTitle">My work</h1>
+                    <p>Below you will find 2 school projects I made in my last semester swell as the link to my GitHub</p>
+                </div>
+                <div class="col-12 ">
+                    <div class="row o-workItems">
+                        <div class="col-3 o-workElement">
+                            <div class="row m-workIcon">
+                                <span class="a-iconWork"><i class="fab fa-spotify fa-10x"></i></span>
+                            </div>
+                            <div class="row a-workElement__tag">
+                                Spotify Promo Page
+                            </div>
+                        </div>
+                        <div class="col-3 o-workElement">
+                            <div class="row m-workIcon">
+                                <span class="a-iconWork"><i class="fab fa-facebook fa-10x"></i></span>
+                            </div>
+                            <div class="row a-workElement__tag">
+                                Banana Boat Crew
+                            </div>
+                        </div>
+                        <div class="col-3 o-workElement">
+                            <div class="row m-workIcon">
+                                <span class="a-iconWork"><i class="fab fa-github fa-10x"></i></span>
+                            </div>
+                            <div class="row a-workElement__tag">
+                                My GitHub
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="row o-contact">
+                <div class="col-12 o-contactTitle">
+                    <h1>Do you want to get in touch with me?</h1>
+                </div>
+                <div class="col-12">
+                    <div class="row o-contactOptions">
+                        <div class="col-6 m-contactOptions">
+                            <div class="row m-contactRow">
+                                <div class="col-2"><span class="a-contactIcon"><i class="fas fa-envelope"></i></span></i></div>
+                                <div class="col-10"><a href="mailto:ari_lybaert@outlook.com">ari_lybaert@outlook.com</a></div>
+                            </div>
+                            <div class="row m-contactRow">
+                                <div class="col-2"><span class="a-contactIcon"><i class="fas fa-phone"></i></span></div>
+                                <div class="col-10"><a href="tel:+324 72 53 52 45">+324 72 53 52 45</a></div>
+                            </div>
+                            <div class="row m-contactRow">
+                                <div class="col-2"><span class="a-contactIcon"><i class="fab fa-linkedin"></i></span></div>
+                                <div class="col-10"><a href="www.linkedin.com/in/arilybaert">My LinkedIn page</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="src/plugins/jquery.easypiechart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
     <script>
         $(function() {
-            $('.chart').easyPieChart({
-                //your options goes here
-                barColor: "#e3ece8",
-                lineWidth: "9",
-                trackColor: false,
-                scaleColor: false,
 
-            });
-            $('.chartLang').easyPieChart({
-                //your options goes here
-                barColor: "#111010",
-                lineWidth: "9",
-                trackColor: false,
-                scaleColor: false,
+            $('.m-graphicLogo').waypoint(function() {
+                // skills chart
+                $('.chart').easyPieChart({
+                    barColor: "#e3ece8",
+                    lineWidth: "9",
+                    trackColor: false,
+                    scaleColor: false,
+                });
+                // languages chart
+                $('.chartLang').easyPieChart({
+                    barColor: "#D93140",
+                    lineWidth: "9",
+                    trackColor: false,
+                    scaleColor: false,
+                });
+                $('#a-programming-skills-javascript').addClass("a-programming-skills-javascript");
+                $('#a-programming-skills-react').addClass("a-programming-skills-react");
+                $('#a-programming-skills-php').addClass("a-programming-skills-php");
+                $('#a-programming-skills-laravel').addClass("a-programming-skills-laravel");
+                $('#a-programming-skills-python').addClass("a-programming-skills-python");
 
-            });
+            }, {
+                offset: 'bottom-in-view'            
+                });
         });
+        
     </script>
 
 </body>

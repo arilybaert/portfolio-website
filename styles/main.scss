@@ -1,9 +1,17 @@
+@import "scss/fontawesome.scss";
+@import "scss/brands.scss";
+@import "scss/solid.scss";
+
 $color-red: #D93140;
 $color-blue: #29728D;
 $color-accent: #26D188;
 $color-white: #e3ece8;
 $color-black: #111010;
-
+h1 {
+    font-size: 28pt;
+    color: $color-white;
+    font-weight: 500;
+}
 // sidebar
 
 .o-sidebar {
@@ -92,9 +100,7 @@ $color-black: #111010;
             padding-top: 20vh;
 
             .a-skillTitle {
-                font-size: 28pt;
-                color: $color-white;
-                font-weight: 500;
+
                 text-align: center;
             }
             .a-invertTitle {
@@ -115,12 +121,12 @@ $color-black: #111010;
                     transform: translateY(-50%);
                     width: 100%;
                     text-align: center;
-                    color: $color-black;
+                    color: $color-white;
                     font-weight: bold;
                     font-size: 15pt;
                 }
                 .a-chartTitleLang {
-                    color: $color-black;
+                    color: $color-red;
                 }
             }
         }
@@ -194,6 +200,81 @@ $color-black: #111010;
         }
     }
 
+    .o-work {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100vh;
+        background-color: $color-blue;
+        padding-top: 15vh;
+
+        .o-workTitle {
+            color: $color-white;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .o-workItems {
+            justify-content: space-around;
+
+            .o-workElement {
+                background-color: $color-white;
+                border-radius: 15px;
+                width: 95%;
+                margin: 0 auto;
+
+                .m-workIcon {
+                    justify-content: center;
+                    align-items: center;
+                    padding: 2vh;
+                    box-sizing: border-box;
+                    .a-iconWork {
+                        color: $color-blue;
+                    }
+                }
+
+                .a-workElement__tag {
+                    color: $color-white;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $color-red;
+                    padding: 1vh;
+                    border-bottom-left-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                }
+            }
+        }
+
+    }
+
+    .o-contact {
+        height: 100vh;
+        padding-top: 15%;
+        background-color: $color-blue;
+
+        .o-contactTitle {
+            text-align: center;
+        }
+
+        .o-contactOptions {
+            justify-content: center;
+            .m-contactOptions {
+            background-color: $color-white;
+            padding: 5vh;
+            border-radius: 15px;
+
+            
+            .m-contactRow {
+                padding: 1vw;
+            }
+            .a-contactIcon {
+                background-color: $color-red;
+                padding: 10px;
+                border-radius: 50%;
+                color: $color-white;
+            }
+            }
+        }
+    }
     .o-languages {
         background-color: $color-white;
     }
