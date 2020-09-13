@@ -37,7 +37,31 @@ h1 {
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: space-between;
         color: $color-white;
+
+        li {
+            padding: 1vh;
+
+            a:link {
+                color: $color-white;
+              }
+              
+              /* visited link */
+              a:visited {
+                color: $color-white;
+              }
+              
+              /* mouse over link */
+              a:hover {
+                color: $color-white;
+              }
+              
+              /* selected link */
+              a:active {
+                color: $color-accent;
+              }
+        }
     }
 }
 
@@ -229,6 +253,10 @@ h1 {
                     box-sizing: border-box;
                     .a-iconWork {
                         color: $color-blue;
+                        .a-iconWork_banana {
+                            height: 155px;
+                            width: auto;
+                        }
                     }
                 }
 

@@ -6083,7 +6083,26 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   color: #e3ece8;
+}
+.o-sidebar ul li {
+  padding: 1vh;
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+.o-sidebar ul li a:link {
+  color: #e3ece8;
+}
+.o-sidebar ul li a:visited {
+  color: #e3ece8;
+}
+.o-sidebar ul li a:hover {
+  color: #e3ece8;
+}
+.o-sidebar ul li a:active {
+  color: #26D188;
 }
 
 .o-wrapper {
@@ -6276,6 +6295,10 @@ h1 {
 }
 .o-wrapper .o-work .o-workItems .o-workElement .m-workIcon .a-iconWork {
   color: #29728D;
+}
+.o-wrapper .o-work .o-workItems .o-workElement .m-workIcon .a-iconWork .a-iconWork_banana {
+  height: 155px;
+  width: auto;
 }
 .o-wrapper .o-work .o-workItems .o-workElement .a-workElement__tag {
   color: #e3ece8;
