@@ -6105,14 +6105,20 @@ h1 {
   color: #26D188;
 }
 
+.o-wrapper > div {
+  box-sizing: border-box;
+}
+
 .o-wrapper {
-  margin-left: 100px;
-  background-color: #29728D;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 100px;
 }
 .o-wrapper .o-home {
   height: 100vh;
   padding-top: 20%;
-  background-color: #29728D;
+  background: #29728d;
+  background: linear-gradient(180deg, #29728d 0%, #246780 100%);
 }
 .o-wrapper .o-home .m-home-left {
   display: flex;
@@ -6147,8 +6153,14 @@ h1 {
 }
 .o-wrapper .o-skills {
   font-family: Arial, Helvetica, sans-serif;
+  background: #246780;
+  background: linear-gradient(180deg, #246780 0%, #23647c 100%);
+}
+.o-wrapper .o-skills .o-graphic {
   height: 100vh;
-  background-color: #29728D;
+}
+.o-wrapper .o-skills .o-technical {
+  height: 100vh;
 }
 .o-wrapper .o-skills .m-skills {
   padding-top: 20vh;
@@ -6269,7 +6281,8 @@ h1 {
 .o-wrapper .o-work {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
-  background-color: #29728D;
+  background: #23647c;
+  background: linear-gradient(180deg, #23647c 0%, #297794 100%);
   padding-top: 15vh;
 }
 .o-wrapper .o-work .o-workTitle {
@@ -6281,13 +6294,18 @@ h1 {
 .o-wrapper .o-work .o-workItems {
   justify-content: space-around;
 }
+.o-wrapper .o-work .o-workItems .workCont {
+  width: 90%;
+  margin: 0 auto;
+}
 .o-wrapper .o-work .o-workItems .o-workElement {
   background-color: #e3ece8;
   border-radius: 15px;
-  width: 95%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 .o-wrapper .o-work .o-workItems .o-workElement .m-workIcon {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 2vh;
@@ -6297,22 +6315,24 @@ h1 {
   color: #29728D;
 }
 .o-wrapper .o-work .o-workItems .o-workElement .m-workIcon .a-iconWork .a-iconWork_banana {
-  height: 155px;
+  height: 160px;
   width: auto;
 }
-.o-wrapper .o-work .o-workItems .o-workElement .a-workElement__tag {
+.o-wrapper .o-work .o-workItems .a-workElement__tag {
+  display: flex;
   color: #e3ece8;
   justify-content: center;
   align-items: center;
   background-color: #D93140;
-  padding: 1vh;
+  padding: 2vh;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 .o-wrapper .o-contact {
   height: 100vh;
   padding-top: 15%;
-  background-color: #29728D;
+  background: #297794;
+  background: linear-gradient(180deg, #297794 0%, #23647c 100%);
 }
 .o-wrapper .o-contact .o-contactTitle {
   text-align: center;
@@ -6336,9 +6356,6 @@ h1 {
 }
 .o-wrapper .o-languages {
   background-color: #e3ece8;
-}
-.o-wrapper .o-technical {
-  background-color: #29728D;
 }
 
 /*# sourceMappingURL=main.css.map */
